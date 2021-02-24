@@ -15,10 +15,9 @@ config :phoenix_snowpack_01, PhoenixSnowpack01Web.Endpoint,
   check_origin: false,
   watchers: [
     node: [
-      "node_modules/webpack/bin/webpack.js",
-      "--mode",
-      "development",
-      "--watch-stdin",
+      "node_modules/snowpack/index.bin.js",
+      "build",
+      "--watch",
       cd: Path.expand("../assets", __DIR__)
     ]
   ]
