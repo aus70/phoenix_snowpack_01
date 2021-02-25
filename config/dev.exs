@@ -15,9 +15,8 @@ config :phoenix_snowpack_01, PhoenixSnowpack01Web.Endpoint,
   check_origin: false,
   watchers: [
     node: [
-      "node_modules/snowpack/index.bin.js",
-      "build",
-      "--watch",
+      "node_modules/.bin/npm-run-all",
+      "watch",
       cd: Path.expand("../assets", __DIR__)
     ]
   ]

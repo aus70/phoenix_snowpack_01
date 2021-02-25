@@ -12,9 +12,9 @@
 //     import socket from "./socket"
 //
 import "phoenix_html"
+import { Socket } from "phoenix"
 import topbar from "topbar"
-import phx from 'https://cdn.skypack.dev/pin/phoenix@v1.5.7-4wz7Nq9zo4AcCiZ5164Q/min/phoenix.js';
-import LiveSocket from 'https://cdn.skypack.dev/pin/phoenix_live_view@v0.15.3-Hv1aW3YBOs2DAoIO9bF0/min/phoenix_live_view.js';
+import { LiveSocket } from "phoenix_live_view"
 
 let csrfToken = document.querySelector("meta[name='csrf-token']").getAttribute("content")
 let liveSocket = new LiveSocket("/live", phx.Socket, { params: { _csrf_token: csrfToken } })
