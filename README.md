@@ -6,7 +6,7 @@ I didn't like loading the Phoenix's JS from a CDN, so I went on trying.
 
 The latest version is based on https://gist.github.com/ohmree/bb701a5e44b6c258a38bd0e497455d17
 
-Thanks to ohmree https://github.com/phoenixframework/phoenix/issues/4160
+Thanks to dbernheisel and ohmree https://github.com/phoenixframework/phoenix/issues/4160
 author of https://gist.github.com/ohmree/bb701a5e44b6c258a38bd0e497455d17
 
 # PhoenixSnowpack01
