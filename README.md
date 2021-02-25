@@ -1,3 +1,10 @@
+
+# Credits
+The latest version is based on https://gist.github.com/ohmree/bb701a5e44b6c258a38bd0e497455d17
+
+Thanks to ohmree https://github.com/phoenixframework/phoenix/issues/4160
+author of https://gist.github.com/ohmree/bb701a5e44b6c258a38bd0e497455d17
+
 # PhoenixSnowpack01
 
 To start your Phoenix server:
